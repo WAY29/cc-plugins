@@ -1,0 +1,26 @@
+{
+    "name": "cc-plugins",
+    "owner": {
+        "name": "Longlone",
+        "email": "way29@foxmail.com"
+    },
+    "plugins": [
+        {
+            "name": "output-styles",
+            "description": "Output styles for Claude Code: Full Stack Engineer(linux.do/topic/1235550)",
+            "version": "0.1.0",
+            "author": {
+                "name": "Longlone"
+            },
+            "source": "./plugins/output-styles",
+            "homepage": "https://github.com/way29/cc-plugins",
+            "repository": "https://github.com/way29/cc-plugins",
+            "license": "MIT",
+            "category": "productivity",
+            "keywords": [
+                "output-styles",
+                "claude-code"
+            ]
+        }
+    ]
+}
