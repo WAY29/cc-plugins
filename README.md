@@ -1,20 +1,20 @@
 # CC-Plugins
 
-Claude Code 插件集合，提供增强的输出风格和专用 Agent。
+Claude Code 插件集合。
 
 ## 插件列表
 
 | 插件 | 说明 |
 |------|------|
-| `full stack engineer` | Full Stack Engineer 风格 - 严格的 RIPER-5 工作流与三层探索协议 |
+| `full-stack-engineer` | Full Stack Engineer 风格 - 严格的 RIPER-5 工作流与三层探索协议 |
 | `agents/code-writer` | 专注代码编写的轻量 Agent (Haiku) |
 
 ## 安装
 
 ### 1. 安装插件
-
+在claude-code中输入
 ```bash
-claude plugins:add github:way29/cc-plugins/plugins
+/plugin marketplace add way29/cc-plugins
 ```
 
 ### 2. 安装依赖 MCP 服务器

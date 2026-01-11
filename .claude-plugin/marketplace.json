@@ -6,9 +6,9 @@
     },
     "plugins": [
         {
-            "name": "full stack engineer",
-            "description": "Expert Full Stack Engineer with RIPER-5 Workflow & Strict Three-Tier Research Protocol",
-            "version": "0.1.0",
+            "name": "super-brain",
+            "description": "Autonomous Computational Unit with RIPER-5 Workflow & Strict Three-Tier Research Protocol",
+            "version": "0.2.0",
             "author": {
                 "name": "Longlone"
             },
