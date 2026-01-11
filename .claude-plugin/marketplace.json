@@ -6,13 +6,13 @@
     },
     "plugins": [
         {
-            "name": "output-styles",
-            "description": "Output styles for Claude Code: Full Stack Engineer(linux.do/topic/1235550)",
+            "name": "full stack engineer",
+            "description": "Expert Full Stack Engineer with RIPER-5 Workflow & Strict Three-Tier Research Protocol",
             "version": "0.1.0",
             "author": {
                 "name": "Longlone"
             },
-            "source": "./plugins/output-styles",
+            "source": "./plugins",
             "homepage": "https://github.com/way29/cc-plugins",
             "repository": "https://github.com/way29/cc-plugins",
             "license": "MIT",
