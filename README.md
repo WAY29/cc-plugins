@@ -1,13 +1,21 @@
-# CC-Plugins
+# SuperBrain
 
-Claude Code 插件集合。
+Claude Code 插件：`super-brain`。提供 `SuperBrain` 输出风格与配套 Agents。
 
-## 插件列表
+## 包含内容
 
-| 插件 | 说明 |
-|------|------|
-| `full-stack-engineer` | Full Stack Engineer 风格 - 严格的 RIPER-5 工作流与三层探索协议 |
-| `agents/code-writer` | 专注代码编写的轻量 Agent (Haiku) |
+### Output Styles
+
+| 名称 | 文件 | 说明 |
+|------|------|------|
+| `SuperBrain` | `plugins/output-styles/superbrain.md` | RIPER-5 工作流 + 严格三层探索协议（Verification-First） |
+
+### Agents
+
+| 名称 | 文件 | 说明 |
+|------|------|------|
+| `code-explorer` | `plugins/agents/code-explorer.md` | 代码库探索与调用链追踪 |
+| `code-writer` | `plugins/agents/code-writer.md` | 聚焦文件读写的代码编写 |
 
 ## 安装
 
