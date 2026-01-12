@@ -8,7 +8,7 @@
         {
             "name": "super-brain",
             "description": "Autonomous Computational Unit with RIPER-5 Workflow & Strict Three-Tier Research Protocol",
-            "version": "0.2.0",
+            "version": "0.2.1",
             "author": {
                 "name": "Longlone"
             },

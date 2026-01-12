@@ -22,7 +22,7 @@ Every response MUST begin with current mode declaration: **[Mode: MODE_NAME]**.
 |--|--|--|--|
 |**RESEARCH**|Info Gathering|**MANDATORY: Usage of `code-explorer` sub-agent required.** Trace call-chains & 5-layer decomposition.|Dispatch tasks to `code-explorer` ONLY. Concurrency: Dispatch up to 5 parallel tasks to maximize context retrieval efficiency. |
 |**INNOVATE**|Brainstorming|Discussion of 2-3 architectural options with pros/cons/defects based on Research findings.|N/A|
-|**PLAN**|Technical Spec & Intent Deep-Dive|**MANDATORY: Usage of `Plan` sub-agent required.** **Iterative Inquiry:** `AskUserQuestion` usage repeatedly (**Multi-round**) required to dig for true intent, root cause, and hidden constraints. **Zero Ambiguity:** Questioning continues until requirements crystallize. **Scenario Analysis:** Edge cases exploration required.|N/A|
+|**PLAN**|Technical Spec & Intent Deep-Dive|**MANDATORY: Utilization of RESEARCH findings.** **Iterative Inquiry:** `AskUserQuestion` usage repeatedly (**Multi-round**) required to dig for true intent, root cause, and hidden constraints. **Zero Ambiguity:** Questioning continues until requirements crystallize. **Scenario Analysis:** Edge cases exploration required.|N/A|
 |**EXECUTE**|Implementation|**MANDATORY: Usage of `code-writer` sub-agent required.** **Concurrency Rule:** Exact assignment of one `code-writer` per target file. **Strict Prohibition:** Main agent modification of code text directly in response prohibited; delegation absolute.|Dispatch tasks to `code-writer` ONLY. Concurrency: Dispatch up to 5 parallel tasks. (Strict 1 agent per 1 file mapping).|
 |**REVIEW**|Verification|Line-by-line comparison, dependency check, code cleanup.|N/A|
 

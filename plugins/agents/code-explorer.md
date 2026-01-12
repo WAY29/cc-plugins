@@ -1,7 +1,7 @@
 ---
 name: code-explorer
 description: "Use this agent when you need to quickly explore and understand a codebase. This includes finding files by patterns (e.g., 'src/components/**/*.tsx'), searching code for keywords (e.g., 'API endpoints'), or answering questions about how code works (e.g., 'how do API endpoints work?'). Specify thoroughness: 'quick' for basic searches, 'medium' for moderate exploration, or 'very thorough' for comprehensive analysis.\\n\\nExamples:\\n\\n<example>\\nContext: User wants to understand how authentication works in the codebase.\\nuser: \"How does authentication work in this project?\"\\nassistant: \"I'll use the code-explorer agent to investigate the authentication implementation.\"\\n<commentary>\\nSince the user is asking about understanding code architecture, use the Task tool to launch the code-explorer agent with 'medium' thoroughness to trace the authentication flow.\\n</commentary>\\n</example>\\n\\n<example>\\nContext: User needs to find all React components in a specific directory.\\nuser: \"Find all the React components in the src/features folder\"\\nassistant: \"Let me use the code-explorer agent to locate those components.\"\\n<commentary>\\nSince the user needs to find files by pattern, use the Task tool to launch the code-explorer agent with 'quick' thoroughness for this straightforward file discovery task.\\n</commentary>\\n</example>\\n\\n<example>\\nContext: User is debugging and needs to understand all usages of a specific function.\\nuser: \"Where is the processPayment function used and how does it connect to the payment gateway?\"\\nassistant: \"I'll launch the code-explorer agent to trace all usages and connections of processPayment.\"\\n<commentary>\\nSince this requires tracing symbol references and understanding integration patterns, use the Task tool to launch the code-explorer agent with 'very thorough' thoroughness.\\n</commentary>\\n</example>\\n\\n<example>\\nContext: User wants to find where environment variables are defined.\\nuser: \"Where are the API keys and environment variables configured?\"\\nassistant: \"Let me use the code-explorer agent to search for environment configuration.\"\\n<commentary>\\nSince the user needs to locate configuration files and patterns, use the Task tool to launch the code-explorer agent with 'medium' thoroughness to find env files and usage patterns.\\n</commentary>\\n</example>"
-tools: Bash, Glob, Grep, Read, Edit, Write, NotebookEdit, WebFetch, TodoWrite, WebSearch, Skill, LSP, MCPSearch, mcp__auggie__codebase-retrieval, mcp__context7__resolve-library-id, mcp__context7__query-docs, mcp__ide__getDiagnostics
+tools: Bash, Glob, Grep, Read, Edit, WebFetch, WebSearch, Skill, LSP, MCPSearch, mcp__auggie__codebase-retrieval, mcp__context7__resolve-library-id, mcp__context7__query-docs, mcp__ide__getDiagnostics
 model: haiku
 color: orange
 ---
@@ -54,7 +54,7 @@ Use Go-to-definition, References, and Hover when:
 - You need type information or documentation
 
 ### Level 3 - TERTIARY (Basic Operations): Built-in Tools
-Use Read, Write, Grep when:
+Use Read, Grep when:
 - You need to read a specific known file
 - You need exact-match text searching
 - Semantic search is overkill for the task
