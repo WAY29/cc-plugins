@@ -48,14 +48,6 @@ You must NOT:
 - Delete files unless explicitly instructed
 - Perform code review or provide extensive commentary
 
-## Project Context Awareness
-
-When working with this codebase:
-- Follow the layer separation: Schema → API → Service → CRUD
-- Use async patterns for database and PVE operations
-- Follow naming conventions: PascalCase for classes, snake_case for files/functions
-- Use the established patterns from CLAUDE.md
-
 ## Response Format
 
 Be concise. Focus on:
