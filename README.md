@@ -51,6 +51,18 @@ export AUGGIE_API_URL="your_url_here"
 export CONTEXT7_API_KEY="your_api_key_here"
 ```
 
+### 3. 使用插件
+
+1.在 Claude Code 中创建新的会话
+2.输入: `/output-styles` 选择 `SuperBrain` 输出风格
+3.使用: `/super-brain:brainstorming` 启动头脑风暴
+4.在头脑风暴后进行代码探索与编写
+5.享受高效的代码开发体验！
+
 ## 许可证
 
 MIT
+
+## 第三方许可证
+
+本项目使用了[superpowers](https://github.com/obra/superpowers)仓库中的部分代码，遵循其许可证要求。请参阅[第三方许可证](./THIRD_PARTY_LICENSES/superpowers-LICENSE)。
