@@ -31,7 +31,7 @@ Claude Code 插件：`super-brain`。提供 `SuperBrain` 输出风格、配套 A
 
 ```bash
 /plugin marketplace add way29/cc-plugins
-/plugin install super-brains@way29/cc-plugins
+/plugin install super-brain@way29/cc-plugins
 ```
 
 ### 2. 配置环境变量
