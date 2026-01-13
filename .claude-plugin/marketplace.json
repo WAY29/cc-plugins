@@ -6,21 +6,7 @@
     },
     "plugins": [
         {
-            "name": "super-brain",
-            "description": "Autonomous Computational Unit with RIPER-5 Workflow & Strict Three-Tier Research Protocol",
-            "version": "0.2.3",
-            "author": {
-                "name": "Longlone"
-            },
-            "source": "./plugins",
-            "homepage": "https://github.com/way29/cc-plugins",
-            "repository": "https://github.com/way29/cc-plugins",
-            "license": "MIT",
-            "category": "productivity",
-            "keywords": [
-                "output-styles",
-                "claude-code"
-            ]
+            "source": "./"
         }
     ]
 }
