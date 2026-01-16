@@ -21,7 +21,8 @@
         "auggie": {
             "command": "npx",
             "args": [
-                "auggie",
+                "-y",
+                "@augmentcode/auggie@latest",
                 "--mcp"
             ],
             "env": {
