@@ -32,7 +32,8 @@
         }
     },
     "skills": [
-        "./skills/brainstorming"
+        "./skills/brainstorming",
+        "./skills/learn"
     ],
     "commands": [
         "./skills/brainstorming/brainstorming.md"

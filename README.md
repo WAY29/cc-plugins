@@ -22,6 +22,7 @@ Claude Code 插件：`super-brain`。提供 `SuperBrain` 输出风格、配套 A
 | 名称 | 文件 | 说明 |
 |------|------|------|
 | `brainstorming` | `skills/brainstorming/brainstorming.md` | 创意工作前的头脑风暴，探索需求与设计 |
+| `learn` | `skills/learn/learn.md` | 费曼学习方法对话工具。用户向AI解释一个概念，AI首先从好奇孩子的角度不断地提出探究性问题，直到用户说“停止”，然后切换到专家模式进行全面分析和纠正。 |
 
 ## 安装
 
